@@ -1,0 +1,6 @@
+Tue Aug 17 04:00:02 UTC 2021 INFO => wait s3://mx-machine-learning/takatak_feature_engineering/video_feature_7d/20210816: try 1 * 600s
+Tue Aug 17 04:10:03 UTC 2021 INFO => wait s3://mx-machine-learning/takatak_feature_engineering/video_feature_7d/20210816: try 2 * 600s
+Tue Aug 17 04:20:04 UTC 2021 INFO => wait s3://mx-machine-learning/takatak_feature_engineering/video_feature_7d/20210816: try 3 * 600s
+Tue Aug 17 04:30:04 UTC 2021 INFO => wait s3://mx-machine-learning/takatak_feature_engineering/video_feature_7d/20210816: try 4 * 600s
+2021-08-17 04:34:27          0 _SUCCESS
+/mnt1/researcher/workspace/TakaTak/spark_util/log/log.spark.cluster.build_feature_v2.20210817

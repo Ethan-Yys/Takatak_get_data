@@ -1,0 +1,164 @@
+21/06/06 23:00:04 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+21/06/06 23:00:06 INFO RMProxy: Connecting to ResourceManager at ip-172-32-34-76.ap-south-1.compute.internal/172.32.34.76:8032
+21/06/06 23:00:06 INFO Client: Requesting a new application from cluster with 62 NodeManagers
+21/06/06 23:00:06 INFO Configuration: resource-types.xml not found
+21/06/06 23:00:06 INFO ResourceUtils: Unable to find 'resource-types.xml'.
+21/06/06 23:00:06 INFO ResourceUtils: Adding resource type - name = memory-mb, units = Mi, type = COUNTABLE
+21/06/06 23:00:06 INFO ResourceUtils: Adding resource type - name = vcores, units = , type = COUNTABLE
+21/06/06 23:00:06 INFO Client: Verifying our application has not requested more than the maximum memory capability of the cluster (122880 MB per container)
+21/06/06 23:00:06 INFO Client: Will allocate AM container, with 2432 MB memory including 384 MB overhead
+21/06/06 23:00:06 INFO Client: Setting up container launch context for our AM
+21/06/06 23:00:06 INFO Client: Setting up the launch environment for our AM container
+21/06/06 23:00:07 INFO Client: Preparing resources for our AM container
+21/06/06 23:00:07 WARN Client: Neither spark.yarn.jars nor spark.yarn.archive is set, falling back to uploading libraries under SPARK_HOME.
+21/06/06 23:00:10 INFO Client: Uploading resource file:/mnt/tmp/spark-44bdf9a0-a249-4c79-87e5-b0936526d6d4/__spark_libs__7989244735227347467.zip -> hdfs://ip-172-32-34-76.ap-south-1.compute.internal:8020/user/researcher/.sparkStaging/application_1612176890765_71007/__spark_libs__7989244735227347467.zip
+21/06/06 23:00:12 INFO Client: Uploading resource file:/mnt1/researcher/workspace/TakaTak/spark_util/log4j.properties -> hdfs://ip-172-32-34-76.ap-south-1.compute.internal:8020/user/researcher/.sparkStaging/application_1612176890765_71007/log4j.properties
+21/06/06 23:00:12 INFO Client: Uploading resource file:/mnt1/researcher/workspace/TakaTak/ranking/merge_predict/merge_predict.py -> hdfs://ip-172-32-34-76.ap-south-1.compute.internal:8020/user/researcher/.sparkStaging/application_1612176890765_71007/merge_predict.py
+21/06/06 23:00:12 INFO Client: Uploading resource file:/usr/lib/spark/python/lib/pyspark.zip -> hdfs://ip-172-32-34-76.ap-south-1.compute.internal:8020/user/researcher/.sparkStaging/application_1612176890765_71007/pyspark.zip
+21/06/06 23:00:12 INFO Client: Uploading resource file:/usr/lib/spark/python/lib/py4j-0.10.7-src.zip -> hdfs://ip-172-32-34-76.ap-south-1.compute.internal:8020/user/researcher/.sparkStaging/application_1612176890765_71007/py4j-0.10.7-src.zip
+21/06/06 23:00:12 INFO Client: Uploading resource file:/mnt1/researcher/workspace/TakaTak/util/HashCode.py -> hdfs://ip-172-32-34-76.ap-south-1.compute.internal:8020/user/researcher/.sparkStaging/application_1612176890765_71007/HashCode.py
+21/06/06 23:00:12 INFO Client: Uploading resource file:/mnt1/researcher/workspace/TakaTak/util/datetime_tools.py -> hdfs://ip-172-32-34-76.ap-south-1.compute.internal:8020/user/researcher/.sparkStaging/application_1612176890765_71007/datetime_tools.py
+21/06/06 23:00:12 INFO Client: Uploading resource file:/mnt1/researcher/workspace/TakaTak/util/tools.py -> hdfs://ip-172-32-34-76.ap-south-1.compute.internal:8020/user/researcher/.sparkStaging/application_1612176890765_71007/tools.py
+21/06/06 23:00:12 INFO Client: Uploading resource file:/mnt/tmp/spark-44bdf9a0-a249-4c79-87e5-b0936526d6d4/__spark_conf__963978950851874747.zip -> hdfs://ip-172-32-34-76.ap-south-1.compute.internal:8020/user/researcher/.sparkStaging/application_1612176890765_71007/__spark_conf__.zip
+21/06/06 23:00:12 INFO SecurityManager: Changing view acls to: researcher
+21/06/06 23:00:12 INFO SecurityManager: Changing modify acls to: researcher
+21/06/06 23:00:12 INFO SecurityManager: Changing view acls groups to: 
+21/06/06 23:00:12 INFO SecurityManager: Changing modify acls groups to: 
+21/06/06 23:00:12 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(researcher); groups with view permissions: Set(); users  with modify permissions: Set(researcher); groups with modify permissions: Set()
+21/06/06 23:00:15 INFO Client: Submitting application application_1612176890765_71007 to ResourceManager
+21/06/06 23:00:15 INFO YarnClientImpl: Submitted application application_1612176890765_71007
+21/06/06 23:00:16 INFO Client: Application report for application_1612176890765_71007 (state: ACCEPTED)
+21/06/06 23:00:16 INFO Client: 
+	 client token: N/A
+	 diagnostics: AM container is launched, waiting for AM container to Register with RM
+	 ApplicationMaster host: N/A
+	 ApplicationMaster RPC port: -1
+	 queue: default
+	 start time: 1623020428303
+	 final status: UNDEFINED
+	 tracking URL: http://ip-172-32-34-76.ap-south-1.compute.internal:20888/proxy/application_1612176890765_71007/
+	 user: researcher
+21/06/06 23:00:17 INFO Client: Application report for application_1612176890765_71007 (state: ACCEPTED)
+21/06/06 23:00:18 INFO Client: Application report for application_1612176890765_71007 (state: ACCEPTED)
+21/06/06 23:00:19 INFO Client: Application report for application_1612176890765_71007 (state: ACCEPTED)
+21/06/06 23:00:20 INFO Client: Application report for application_1612176890765_71007 (state: ACCEPTED)
+21/06/06 23:00:21 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:00:21 INFO Client: 
+	 client token: N/A
+	 diagnostics: N/A
+	 ApplicationMaster host: ip-172-32-34-116.ap-south-1.compute.internal
+	 ApplicationMaster RPC port: 35437
+	 queue: default
+	 start time: 1623020428303
+	 final status: UNDEFINED
+	 tracking URL: http://ip-172-32-34-76.ap-south-1.compute.internal:20888/proxy/application_1612176890765_71007/
+	 user: researcher
+21/06/06 23:00:22 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:00:23 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:00:24 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:00:25 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:00:26 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:00:27 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:00:28 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:00:29 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:00:30 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:00:31 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:00:32 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:00:33 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:00:34 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:00:35 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:00:36 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:00:37 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:00:38 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:00:39 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:00:40 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:00:41 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:00:42 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:00:43 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:00:44 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:00:45 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:00:46 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:00:47 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:00:48 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:00:49 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:00:50 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:00:51 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:00:52 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:00:53 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:00:54 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:00:55 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:00:56 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:00:57 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:00:58 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:00:59 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:01:00 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:01:01 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:01:02 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:01:03 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:01:04 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:01:05 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:01:06 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:01:07 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:01:08 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:01:09 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:01:10 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:01:11 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:01:12 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:01:13 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:01:14 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:01:15 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:01:16 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:01:17 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:01:18 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:01:19 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:01:20 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:01:21 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:01:22 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:01:23 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:01:24 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:01:25 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:01:26 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:01:27 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:01:28 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:01:29 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:01:30 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:01:31 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:01:32 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:01:33 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:01:34 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:01:35 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:01:36 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:01:37 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:01:38 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:01:39 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:01:40 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:01:41 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:01:42 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:01:43 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:01:44 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:01:45 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:01:46 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:01:47 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:01:48 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:01:49 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:01:50 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:01:51 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:01:52 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:01:53 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:01:54 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:01:55 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:01:56 INFO Client: Application report for application_1612176890765_71007 (state: RUNNING)
+21/06/06 23:01:57 INFO Client: Application report for application_1612176890765_71007 (state: FINISHED)
+21/06/06 23:01:57 INFO Client: 
+	 client token: N/A
+	 diagnostics: N/A
+	 ApplicationMaster host: ip-172-32-34-116.ap-south-1.compute.internal
+	 ApplicationMaster RPC port: 35437
+	 queue: default
+	 start time: 1623020428303
+	 final status: SUCCEEDED
+	 tracking URL: http://ip-172-32-34-76.ap-south-1.compute.internal:20888/proxy/application_1612176890765_71007/
+	 user: researcher
+21/06/06 23:01:57 INFO ShutdownHookManager: Shutdown hook called
+21/06/06 23:01:57 INFO ShutdownHookManager: Deleting directory /mnt/tmp/spark-d7ea02b9-0386-4e06-b7cc-491c4ad9747c
+21/06/06 23:01:57 INFO ShutdownHookManager: Deleting directory /mnt/tmp/spark-44bdf9a0-a249-4c79-87e5-b0936526d6d4

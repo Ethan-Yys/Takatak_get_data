@@ -1,0 +1,259 @@
+21/05/22 23:30:08 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+21/05/22 23:30:09 INFO RMProxy: Connecting to ResourceManager at ip-172-32-34-76.ap-south-1.compute.internal/172.32.34.76:8032
+21/05/22 23:30:09 INFO Client: Requesting a new application from cluster with 86 NodeManagers
+21/05/22 23:30:10 INFO Configuration: resource-types.xml not found
+21/05/22 23:30:10 INFO ResourceUtils: Unable to find 'resource-types.xml'.
+21/05/22 23:30:10 INFO ResourceUtils: Adding resource type - name = memory-mb, units = Mi, type = COUNTABLE
+21/05/22 23:30:10 INFO ResourceUtils: Adding resource type - name = vcores, units = , type = COUNTABLE
+21/05/22 23:30:10 INFO Client: Verifying our application has not requested more than the maximum memory capability of the cluster (122880 MB per container)
+21/05/22 23:30:10 INFO Client: Will allocate AM container, with 2432 MB memory including 384 MB overhead
+21/05/22 23:30:10 INFO Client: Setting up container launch context for our AM
+21/05/22 23:30:10 INFO Client: Setting up the launch environment for our AM container
+21/05/22 23:30:10 INFO Client: Preparing resources for our AM container
+21/05/22 23:30:10 WARN Client: Neither spark.yarn.jars nor spark.yarn.archive is set, falling back to uploading libraries under SPARK_HOME.
+21/05/22 23:30:12 INFO Client: Uploading resource file:/mnt/tmp/spark-dc1df316-4b0b-41a9-a259-d4d49d405d35/__spark_libs__1649063436505327231.zip -> hdfs://ip-172-32-34-76.ap-south-1.compute.internal:8020/user/researcher/.sparkStaging/application_1612176890765_59540/__spark_libs__1649063436505327231.zip
+21/05/22 23:30:14 INFO Client: Uploading resource file:/mnt1/researcher/workspace/TakaTak/spark_util/log4j.properties -> hdfs://ip-172-32-34-76.ap-south-1.compute.internal:8020/user/researcher/.sparkStaging/application_1612176890765_59540/log4j.properties
+21/05/22 23:30:14 INFO Client: Uploading resource file:/mnt1/researcher/workspace/TakaTak/ranking/merge_predict/merge_predict.py -> hdfs://ip-172-32-34-76.ap-south-1.compute.internal:8020/user/researcher/.sparkStaging/application_1612176890765_59540/merge_predict.py
+21/05/22 23:30:14 INFO Client: Uploading resource file:/usr/lib/spark/python/lib/pyspark.zip -> hdfs://ip-172-32-34-76.ap-south-1.compute.internal:8020/user/researcher/.sparkStaging/application_1612176890765_59540/pyspark.zip
+21/05/22 23:30:15 INFO Client: Uploading resource file:/usr/lib/spark/python/lib/py4j-0.10.7-src.zip -> hdfs://ip-172-32-34-76.ap-south-1.compute.internal:8020/user/researcher/.sparkStaging/application_1612176890765_59540/py4j-0.10.7-src.zip
+21/05/22 23:30:15 INFO Client: Uploading resource file:/mnt1/researcher/workspace/TakaTak/util/HashCode.py -> hdfs://ip-172-32-34-76.ap-south-1.compute.internal:8020/user/researcher/.sparkStaging/application_1612176890765_59540/HashCode.py
+21/05/22 23:30:15 INFO Client: Uploading resource file:/mnt1/researcher/workspace/TakaTak/util/datetime_tools.py -> hdfs://ip-172-32-34-76.ap-south-1.compute.internal:8020/user/researcher/.sparkStaging/application_1612176890765_59540/datetime_tools.py
+21/05/22 23:30:15 INFO Client: Uploading resource file:/mnt1/researcher/workspace/TakaTak/util/tools.py -> hdfs://ip-172-32-34-76.ap-south-1.compute.internal:8020/user/researcher/.sparkStaging/application_1612176890765_59540/tools.py
+21/05/22 23:30:15 INFO Client: Uploading resource file:/mnt/tmp/spark-dc1df316-4b0b-41a9-a259-d4d49d405d35/__spark_conf__1163884273516958004.zip -> hdfs://ip-172-32-34-76.ap-south-1.compute.internal:8020/user/researcher/.sparkStaging/application_1612176890765_59540/__spark_conf__.zip
+21/05/22 23:30:15 INFO SecurityManager: Changing view acls to: researcher
+21/05/22 23:30:15 INFO SecurityManager: Changing modify acls to: researcher
+21/05/22 23:30:15 INFO SecurityManager: Changing view acls groups to: 
+21/05/22 23:30:15 INFO SecurityManager: Changing modify acls groups to: 
+21/05/22 23:30:15 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(researcher); groups with view permissions: Set(); users  with modify permissions: Set(researcher); groups with modify permissions: Set()
+21/05/22 23:30:17 INFO Client: Submitting application application_1612176890765_59540 to ResourceManager
+21/05/22 23:30:17 INFO YarnClientImpl: Submitted application application_1612176890765_59540
+21/05/22 23:30:18 INFO Client: Application report for application_1612176890765_59540 (state: ACCEPTED)
+21/05/22 23:30:18 INFO Client: 
+	 client token: N/A
+	 diagnostics: AM container is launched, waiting for AM container to Register with RM
+	 ApplicationMaster host: N/A
+	 ApplicationMaster RPC port: -1
+	 queue: default
+	 start time: 1621726229731
+	 final status: UNDEFINED
+	 tracking URL: http://ip-172-32-34-76.ap-south-1.compute.internal:20888/proxy/application_1612176890765_59540/
+	 user: researcher
+21/05/22 23:30:19 INFO Client: Application report for application_1612176890765_59540 (state: ACCEPTED)
+21/05/22 23:30:20 INFO Client: Application report for application_1612176890765_59540 (state: ACCEPTED)
+21/05/22 23:30:21 INFO Client: Application report for application_1612176890765_59540 (state: ACCEPTED)
+21/05/22 23:30:22 INFO Client: Application report for application_1612176890765_59540 (state: ACCEPTED)
+21/05/22 23:30:23 INFO Client: Application report for application_1612176890765_59540 (state: ACCEPTED)
+21/05/22 23:30:24 INFO Client: Application report for application_1612176890765_59540 (state: ACCEPTED)
+21/05/22 23:30:25 INFO Client: Application report for application_1612176890765_59540 (state: ACCEPTED)
+21/05/22 23:30:26 INFO Client: Application report for application_1612176890765_59540 (state: ACCEPTED)
+21/05/22 23:30:27 INFO Client: Application report for application_1612176890765_59540 (state: ACCEPTED)
+21/05/22 23:30:28 INFO Client: Application report for application_1612176890765_59540 (state: ACCEPTED)
+21/05/22 23:30:29 INFO Client: Application report for application_1612176890765_59540 (state: ACCEPTED)
+21/05/22 23:30:30 INFO Client: Application report for application_1612176890765_59540 (state: ACCEPTED)
+21/05/22 23:30:31 INFO Client: Application report for application_1612176890765_59540 (state: ACCEPTED)
+21/05/22 23:30:32 INFO Client: Application report for application_1612176890765_59540 (state: ACCEPTED)
+21/05/22 23:30:33 INFO Client: Application report for application_1612176890765_59540 (state: ACCEPTED)
+21/05/22 23:30:34 INFO Client: Application report for application_1612176890765_59540 (state: ACCEPTED)
+21/05/22 23:30:35 INFO Client: Application report for application_1612176890765_59540 (state: ACCEPTED)
+21/05/22 23:30:36 INFO Client: Application report for application_1612176890765_59540 (state: ACCEPTED)
+21/05/22 23:30:37 INFO Client: Application report for application_1612176890765_59540 (state: ACCEPTED)
+21/05/22 23:30:38 INFO Client: Application report for application_1612176890765_59540 (state: ACCEPTED)
+21/05/22 23:30:39 INFO Client: Application report for application_1612176890765_59540 (state: ACCEPTED)
+21/05/22 23:30:40 INFO Client: Application report for application_1612176890765_59540 (state: ACCEPTED)
+21/05/22 23:30:41 INFO Client: Application report for application_1612176890765_59540 (state: ACCEPTED)
+21/05/22 23:30:42 INFO Client: Application report for application_1612176890765_59540 (state: ACCEPTED)
+21/05/22 23:30:43 INFO Client: Application report for application_1612176890765_59540 (state: ACCEPTED)
+21/05/22 23:30:44 INFO Client: Application report for application_1612176890765_59540 (state: ACCEPTED)
+21/05/22 23:30:45 INFO Client: Application report for application_1612176890765_59540 (state: ACCEPTED)
+21/05/22 23:30:46 INFO Client: Application report for application_1612176890765_59540 (state: ACCEPTED)
+21/05/22 23:30:47 INFO Client: Application report for application_1612176890765_59540 (state: ACCEPTED)
+21/05/22 23:30:48 INFO Client: Application report for application_1612176890765_59540 (state: ACCEPTED)
+21/05/22 23:30:49 INFO Client: Application report for application_1612176890765_59540 (state: ACCEPTED)
+21/05/22 23:30:50 INFO Client: Application report for application_1612176890765_59540 (state: ACCEPTED)
+21/05/22 23:30:51 INFO Client: Application report for application_1612176890765_59540 (state: ACCEPTED)
+21/05/22 23:30:52 INFO Client: Application report for application_1612176890765_59540 (state: ACCEPTED)
+21/05/22 23:30:53 INFO Client: Application report for application_1612176890765_59540 (state: ACCEPTED)
+21/05/22 23:30:54 INFO Client: Application report for application_1612176890765_59540 (state: ACCEPTED)
+21/05/22 23:30:55 INFO Client: Application report for application_1612176890765_59540 (state: ACCEPTED)
+21/05/22 23:30:56 INFO Client: Application report for application_1612176890765_59540 (state: ACCEPTED)
+21/05/22 23:30:57 INFO Client: Application report for application_1612176890765_59540 (state: ACCEPTED)
+21/05/22 23:30:58 INFO Client: Application report for application_1612176890765_59540 (state: ACCEPTED)
+21/05/22 23:30:59 INFO Client: Application report for application_1612176890765_59540 (state: ACCEPTED)
+21/05/22 23:31:00 INFO Client: Application report for application_1612176890765_59540 (state: ACCEPTED)
+21/05/22 23:31:01 INFO Client: Application report for application_1612176890765_59540 (state: ACCEPTED)
+21/05/22 23:31:02 INFO Client: Application report for application_1612176890765_59540 (state: ACCEPTED)
+21/05/22 23:31:03 INFO Client: Application report for application_1612176890765_59540 (state: ACCEPTED)
+21/05/22 23:31:04 INFO Client: Application report for application_1612176890765_59540 (state: ACCEPTED)
+21/05/22 23:31:05 INFO Client: Application report for application_1612176890765_59540 (state: ACCEPTED)
+21/05/22 23:31:06 INFO Client: Application report for application_1612176890765_59540 (state: ACCEPTED)
+21/05/22 23:31:07 INFO Client: Application report for application_1612176890765_59540 (state: ACCEPTED)
+21/05/22 23:31:08 INFO Client: Application report for application_1612176890765_59540 (state: ACCEPTED)
+21/05/22 23:31:09 INFO Client: Application report for application_1612176890765_59540 (state: ACCEPTED)
+21/05/22 23:31:10 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:31:10 INFO Client: 
+	 client token: N/A
+	 diagnostics: N/A
+	 ApplicationMaster host: ip-172-32-34-116.ap-south-1.compute.internal
+	 ApplicationMaster RPC port: 37435
+	 queue: default
+	 start time: 1621726229731
+	 final status: UNDEFINED
+	 tracking URL: http://ip-172-32-34-76.ap-south-1.compute.internal:20888/proxy/application_1612176890765_59540/
+	 user: researcher
+21/05/22 23:31:11 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:31:12 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:31:13 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:31:14 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:31:15 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:31:16 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:31:17 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:31:18 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:31:19 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:31:20 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:31:21 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:31:22 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:31:23 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:31:24 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:31:25 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:31:26 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:31:27 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:31:28 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:31:29 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:31:30 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:31:31 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:31:32 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:31:33 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:31:34 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:31:35 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:31:36 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:31:37 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:31:38 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:31:39 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:31:40 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:31:41 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:31:42 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:31:43 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:31:44 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:31:45 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:31:46 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:31:47 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:31:48 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:31:49 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:31:50 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:31:51 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:31:52 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:31:53 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:31:54 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:31:55 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:31:56 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:31:57 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:31:58 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:31:59 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:32:00 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:32:01 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:32:02 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:32:03 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:32:04 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:32:05 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:32:06 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:32:07 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:32:08 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:32:09 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:32:10 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:32:11 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:32:12 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:32:13 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:32:14 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:32:15 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:32:16 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:32:17 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:32:18 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:32:19 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:32:20 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:32:21 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:32:22 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:32:23 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:32:24 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:32:25 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:32:26 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:32:27 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:32:28 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:32:29 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:32:30 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:32:31 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:32:32 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:32:33 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:32:34 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:32:35 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:32:36 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:32:37 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:32:38 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:32:39 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:32:40 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:32:41 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:32:42 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:32:43 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:32:44 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:32:45 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:32:46 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:32:47 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:32:48 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:32:49 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:32:50 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:32:51 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:32:52 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:32:53 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:32:54 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:32:55 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:32:56 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:32:57 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:32:58 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:32:59 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:33:00 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:33:01 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:33:02 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:33:03 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:33:04 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:33:05 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:33:06 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:33:07 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:33:08 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:33:09 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:33:10 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:33:11 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:33:12 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:33:13 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:33:14 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:33:15 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:33:16 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:33:17 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:33:18 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:33:19 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:33:20 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:33:21 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:33:22 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:33:23 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:33:24 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:33:25 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:33:26 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:33:27 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:33:28 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:33:29 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:33:30 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:33:31 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:33:32 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:33:33 INFO Client: Application report for application_1612176890765_59540 (state: RUNNING)
+21/05/22 23:33:34 INFO Client: Application report for application_1612176890765_59540 (state: FINISHED)
+21/05/22 23:33:34 INFO Client: 
+	 client token: N/A
+	 diagnostics: N/A
+	 ApplicationMaster host: ip-172-32-34-116.ap-south-1.compute.internal
+	 ApplicationMaster RPC port: 37435
+	 queue: default
+	 start time: 1621726229731
+	 final status: SUCCEEDED
+	 tracking URL: http://ip-172-32-34-76.ap-south-1.compute.internal:20888/proxy/application_1612176890765_59540/
+	 user: researcher
+21/05/22 23:33:34 INFO ShutdownHookManager: Shutdown hook called
+21/05/22 23:33:34 INFO ShutdownHookManager: Deleting directory /mnt/tmp/spark-dc1df316-4b0b-41a9-a259-d4d49d405d35
+21/05/22 23:33:34 INFO ShutdownHookManager: Deleting directory /mnt/tmp/spark-af0ffb5f-d41c-4c71-8bb1-7ee365c44fc9
