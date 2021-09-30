@@ -9,9 +9,9 @@ fi
 source ../../spark_util/shell_tools.sh
 
 
-days=1
-user_range=3000_3499
-out_range_sample_rate=0.03
+days=30
+user_range=3000_3049
+out_range_sample_rate=0
 
 JOB_PREFIX="research::TakaTak: build_feature_v2"
 
@@ -30,7 +30,7 @@ check_cmd $?
 # 训练样本，测试数据集，用户历史特征提取
 bash ../../spark_util/spark_submit.sh "${JOB_PREFIX}" \
     2h 2g 500 1 4g 1000 4000 \
-    build_feature_v2_metrics.py \
+    build_feature_v2.py \
     "--date ${YMD} --days ${days} --user_range ${user_range}  --out_range_sample_rate ${out_range_sample_rate}" \
     "../../util/*.py,feature_extractor/*.py"
 check_cmd $?
