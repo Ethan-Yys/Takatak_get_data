@@ -37,7 +37,7 @@ USER_ACT_VID_DAILY_BASE = "s3://mx-machine-learning/takatak_strategy_statistic/u
 USER_REG_BASE = "s3://mx-machine-learning/takatak_strategy_statistic/register_data/register_json_all"
 #  输出
 USER_ACT_DAILY_INTERMEDIATE = "s3://mx-machine-learning/yuyisong/takatak/user_act_daily_intermediate"
-FEATURE_BASE = "s3://mx-machine-learning/dongxinzhou/takatak/feature"
+FEATURE_BASE = "s3://mx-machine-learning/yuyisong/takatak/GRU4REC/feature"
 
 
 def load_user_reg(line):
@@ -380,4 +380,4 @@ if __name__ == "__main__":
 
     vid_act_paths = build_feature(spark, dates, user_range, args.out_range_sample_rate)
     print("Intermediate Process Down")
-    # merge_actions(spark, vid_act_paths, user_range, date)
+    merge_actions(spark, vid_act_paths, user_range, date)
