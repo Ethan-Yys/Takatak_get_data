@@ -380,4 +380,4 @@ if __name__ == "__main__":
 
     vid_act_paths = build_feature(spark, dates, user_range, args.out_range_sample_rate)
     print("Intermediate Process Down")
-    merge_actions(spark, vid_act_paths, user_range, date)
+    # merge_actions(spark, vid_act_paths, user_range, date)
