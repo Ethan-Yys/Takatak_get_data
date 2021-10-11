@@ -10,7 +10,7 @@ source ../../spark_util/shell_tools.sh
 
 
 days=1
-user_range=3000_3499
+user_range=3500_3999
 out_range_sample_rate=0
 
 JOB_PREFIX="research::TakaTak: build_feature_comirec"
